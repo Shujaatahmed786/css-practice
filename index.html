@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        /* div{
+            /* background-color: red; */
+
+
+        /* .red{
+            background-color: red;
+        } */
+
+        /*         
+        #green{
+            background-color: green;
+        } */
+
+        /* child selectors */
+
+        /* div > p{
+            background-color: brown;
+            color: blue;
+        } */
+        /* descedant selector */
+        /* 
+        div p{
+            background-color: brown;
+            color: blue;
+        } */
+        /* universal selector */
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+
+        /* psuedo class */
+        /* a:visited{
+            color:yellow ;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: blue;
+        }
+
+        p:first-child{
+            background-color: aqua;
+        } */
+        /* 
+        .box{
+            background-color: aqua;
+        }
+
+        .box-1{
+            color: yellow;
+            padding: 10px;
+            margin: 50px;
+            border: 2px solid blue;
+            box-sizing: border-box;
+
+        }
+        .box-2{
+            color: red;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid black;
+            box-sizing: border-box;
+
+        } */
+
+        /* h1{
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            text-decoration-style: line;
+            text-decoration-thickness: 7px;
+            text-overflow: ellipsis;
+        }
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            font-weight: 900;
+        }
+
+        .lorem{
+            border: 2px solid red;
+            width: 45px;
+
+        } */
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        /* .box {
+            border: 2px solid black;
+            width: 80vw;
+            margin: auto;
+            height: 10vh;
+            background-color: aqua;
+            box-sizing: border-box;
+            
+        }
+        
+        .container{
+            border: 2px solid black;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+            background-color: aqua;
+            box-sizing: border-box;
+            text-align: center;
+
+        } */
+        /* .box{
+            width: 133px;
+            height: 80px;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+
+           
+        }
+
+        .box-1{
+            background-color: aqua;
+            
+        }
+
+
+        .box-2{
+            background-color:aliceblue;
+        }
+
+        .box-3{
+            background-color:antiquewhite;
+        }
+
+        .box-4{
+            background-color:purple;
+        } */
+         :root{
+            --color: blue;
+            --seccolor: rgb(140, 140, 184);
+         }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            background-color: green;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .container{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div> -->
+    <!-- <main class="one">
+        <p>i m a selector</p>
+        <p>i m a selector 2</p>
+
+    </main>
+    </div>
+    <div class="red">
+        i am a div
+        <article>
+        <p>i am a para inside the para</p>
+    </article>
+
+
+    </div>
+    <div id="green">
+        i m another div
+    </div>
+    <a href="https:www.google.com">go to google</a> -->
+
+    <!-- <div class="box  box-1">
+        i am a box
+    </div>
+    <div class="box  box-2">
+        i am  another box
+    </div> -->
+    <!-- <div>
+        <h1>this is heading</h1>
+        <p>this is para</p>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore nihil exercitationem eligendi quas recusandae quibusdam ex amet vel. 
+            Cupiditate, modi.</p>
+    </div> -->
+    <!-- <div class="box">
+        this is a box
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque repudiandae expedita labore velit vitae. Ullam
+        possimus adipisci ratione facilis numquam quas porro magnam vitae totam animi accusantium perferendis voluptate
+        dignissimos, tempore eum sit. Voluptatum, numquam nulla illo ullam maxime unde cupiditate. Non officia deserunt
+        consequuntur quaerat adipisci beatae voluptatem, consequatur aspernatur, cum delectus laborum doloribus optio.
+    </div> -->
+    <!-- <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, itaque ex alias ipsum assumenda similique iure
+        distinctio numquam voluptatem dolorum aliquam esse ducimus expedita provident minus amet ad iste ut rem unde et
+        id magnam dolore temporibus. Quidem commodi voluptas iusto repellendus voluptatibus, nobis tempore repellat enim
+        explicabo porro deleniti voluptatem minima.
+    </div> -->
+    <!-- <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+    <div class="box box-4"></div> -->
+
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur perferendis maiores ducimus
+            nemo laborum, impedit in omnis saepe nobis vel ab sint nostrum similique cumque est aspernatur dicta amet
+            mollitia, officia incidunt qui! Vitae soluta odit eligendi dolorem vero ratione ducimus officiis, cum,
+            inventore aliquam, delectus blanditiis aliquid voluptas quasi. Minima fugiat odit laboriosam. Consequuntur?
+        </p>
+    </div>
+
+</body>
+
+</html>
